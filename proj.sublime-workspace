@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/alex/Documents/alexpennells.github.io/_config.yml",
+		"/home/alex/Documents/alexpennells.github.io/_sass/_layout.scss",
+		"/home/alex/Documents/alexpennells.github.io/css/main.scss",
+		"/home/alex/Documents/alexpennells.github.io/index.html",
+		"/home/alex/Documents/alexpennells.github.io/_sass/_syntax-highlighting.scss",
+		"/home/alex/Documents/alexpennells.github.io/_layouts/page.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/footer.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/header.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/head.html",
+		"/storage/Game Assets/Pebbles/website/style.css",
+		"/storage/Game Assets/Pebbles/website/index.html",
+		"/home/alex/Documents/alexpennells.github.io/_sass/_base.scss",
+		"/home/alex/Documents/alexpennells.github.io/README.md",
+		"/home/alex/Documents/alexpennells.github.io/feed.xml",
+		"/home/alex/Documents/alexpennells.github.io/_posts/2014-10-10-welcome-to-jekyll.markdown",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-11-08-food-waste-hackathon.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-10-22-guelph-coding-community.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-10-08-guelph-coding-community.html",
+		"/home/alex/Documents/uogsocis.github.io/events/index.html",
+		"/home/alex/Documents/uogsocis.github.io/gcc/index.html",
+		"/home/alex/Documents/uogsocis.github.io/index.html",
+		"/home/alex/Documents/uogsocis.github.io/_site/gcc/index.html",
+		"/home/alex/Documents/uogsocis.github.io/_includes/header.html",
+		"/home/alex/Documents/uogsocis.github.io/css/main.css",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-22-08-guelph-coding-community.html",
+		"/home/alex/Documents/uogsocis.github.io/about/index.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/news/2014-03-06-agm-results.html",
+		"/home/alex/Documents/uogsocis.github.io/contact/index.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-09-06-intro-to-the-raspberry-pi.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-09-04-socs-bbq.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-08-31-you-bet-your-ascii.html",
+		"/home/alex/Documents/uogsocis.github.io/_config.yml",
+		"/home/alex/Documents/uogsocis.github.io/CNAME",
+		"/home/alex/Documents/uogsocis.github.io/_posts/news/2014-01-10-by-election.html",
+		"/home/alex/Documents/uogsocis.github.io/news/index.html",
+		"/home/alex/Documents/uogsocis.github.io/_includes/footer.html",
+		"/home/alex/Documents/uogsocis.github.io/_layouts/default.html",
+		"/home/alex/Documents/uogsocis.github.io/_site/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"upcoming",
+			"left",
+			"12px",
+			"32px",
+			"about",
+			"contact",
+			"h2",
+			"h1",
+			"radius",
+			"h1",
+			"h2",
+			"h1",
+			"recurring",
+			"h2",
+			"1",
+			"recurring",
+			"white",
+			"radius",
+			"article",
+			"<a",
+			":hover",
+			"xs",
+			"p ",
+			"align",
+			"100px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"comm",
+				"_posts/events/2014-10-22-guelph-coding-community.html"
+			],
+			[
+				"guelph",
+				"_posts/events/2014-10-08-guelph-coding-community.html"
+			],
+			[
+				"hack",
+				"_posts/events/2014-11-08-food-waste-hackathon.html"
+			],
+			[
+				"gcc",
+				"_posts/events/2014-10-08-guelph-coding-community.html"
+			],
+			[
+				"gcc/in",
+				"_site/gcc/index.html"
+			],
+			[
+				"events",
+				"events/index.html"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
+				"gcc/ind",
+				"_site/gcc/index.html"
+			],
+			[
+				"guelp",
+				"_posts/events/2014-10-22-guelph-coding-community.html"
+			],
+			[
+				"about",
+				"about/index.html"
+			],
+			[
+				"events/in",
+				"events/index.html"
+			],
+			[
+				"conta",
+				"contact/index.html"
+			],
+			[
+				"mains",
+				"css/main.css"
+			],
+			[
+				"news",
+				"news/index.html"
+			],
+			[
+				"index",
+				"_site/index.html"
+			],
+			[
+				"css",
+				"css/main.css"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}
