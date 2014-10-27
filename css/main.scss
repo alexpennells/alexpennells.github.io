@@ -174,7 +174,7 @@ footer {
 	color: $medium-blue;
 	font-size: 40px;
 	text-shadow: 4px 4px 6px $black;
-	text-align: right;
+	text-align: center;
 }
 
 .footer-logo:hover {
@@ -201,8 +201,8 @@ footer p {
 }
 
 .footer-cred {
-  text-align: center;
-  margin-top: 22px;
+  text-align: right;
+  margin-top: 30px;
   color: $light-grey;
   font-size: 12px;
   
@@ -300,7 +300,7 @@ footer p {
 		margin: 0 auto;
 
 		/* Keep aspect ratio without overlapping parent */
-		max-width: 100%;
+		max-width: 95%;
 		width: auto\9;
 		height: auto;
 		vertical-align: middle;
