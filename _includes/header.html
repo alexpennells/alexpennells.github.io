@@ -2,7 +2,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<a class="header-logo" href="{{ site.baseurl }}">PebbleS</a>
+				<a class="header-logo" href="/">PebbleS</a>
+			</div>
+			<div class="col-lg-2 col-lg-offset-4 header-btn">
+				{% if page.id == 'blog' %}
+					<a class="active" href="/">Blog</a>
+				{% else %}
+					<a href="/">Blog</a>
+				{% endif %}
+			</div>
+			<div class="col-lg-2 header-btn">
+				{% if page.id == 'about' %}
+					<a class="active" href="/about/">About Us</a>
+				{% else %}
+					<a href="/about/">About Us</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
