@@ -9,12 +9,12 @@
           <div class="col-lg-12">
             <div class="fluid-container post">
               <div class="row">
-                <div class="col-lg-1 post-info">
+                <div class="col-md-1 hidden-sm hidden-xs post-info">
                   <p class="post-month">{{ page.date | date: "%b" }}</p>
                   <p class="post-day">{{ page.date | date: "%d" }}</p>
                   <p class="post-year">{{ page.date | date: "%Y" }}</p>
                 </div>
-                <div class="col-lg-11">
+                <div class="col-md-11 col-sm-12 col-xs-12">
                   <a class="post-title" href="{{ page.url }}">{{ page.title }}</a>
                   <p class="post-author">Posted by {{ page.authors | join: ', '}} on {{ page.date | date: "%B %-d, %Y" }}</p>
                   {{ page.content }}

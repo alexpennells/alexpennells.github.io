@@ -5,12 +5,12 @@ id: blog
 {% for post in site.posts %}
 	<div class="fluid-container post">
 		<div class="row">
-			<div class="col-lg-1 post-info">
+			<div class="col-md-1 hidden-sm hidden-xs post-info">
 				<p class="post-month">{{ post.date | date: "%b" }}</p>
 				<p class="post-day">{{ post.date | date: "%d" }}</p>
 				<p class="post-year">{{ post.date | date: "%Y" }}</p>
 			</div>
-			<div class="col-lg-11">
+			<div class="col-md-11 col-sm-12 col-xs-12">
 				<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
 				<p class="post-author">Posted by {{ post.authors | join: ', '}} on {{ post.date | date: "%B %-d, %Y" }}</p>
 				{{ post.content }}
