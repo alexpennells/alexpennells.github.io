@@ -87,7 +87,7 @@ hr {
 	border-color: $medium-blue;
 }
 hr.grey {
-	border-color: $dark-grey;	
+	border-color: $dark-grey;
 }
 
 // Wraps the the whole page (header and footer included)
@@ -166,6 +166,52 @@ footer {
 	box-shadow: 0 -2px 8px 4px $black;
 	-webkit-box-shadow: 0 -2px 8px 4px $black;
 	margin-top: 40px;
+}
+
+.footer-logo {
+  display: block;
+	font-family: $font-logo;
+	color: $medium-blue;
+	font-size: 40px;
+	text-shadow: 4px 4px 6px $black;
+	text-align: right;
+}
+
+.footer-logo:hover {
+	color: $light-blue;
+	cursor: pointer;
+	text-shadow: 4px 4px 12px $black;
+	text-decoration: none;
+}
+
+footer p {
+  color: $light-grey;
+  margin-top: 10px;
+}
+
+.footer-btn {
+  color: $medium-blue;
+  padding: 0 10px;
+}
+.footer-btn:hover {
+  color: $light-blue;
+}
+.footer-btn:first-of-type {
+  padding-left: 0;
+}
+
+.footer-cred {
+  text-align: center;
+  margin-top: 22px;
+  color: $light-grey;
+  font-size: 12px;
+  
+  a {
+    color: $medium-blue;
+  }
+  a:hover {
+    color: $light-blue;
+  }
 }
 
 /*===================================================*/
