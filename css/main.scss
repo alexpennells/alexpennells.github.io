@@ -72,6 +72,24 @@ body {
 	background-color: rgba(0,0,0,0.5);
 }
 
+p {
+	font-family: $font;
+}
+
+a {
+	color: $medium-orange;
+}
+a:hover {
+	color: $light-orange;
+}
+
+hr {
+	border-color: $medium-blue;
+}
+hr.grey {
+	border-color: $dark-grey;	
+}
+
 // Wraps the the whole page (header and footer included)
 #wrap {
 	min-height: 100%;
@@ -192,6 +210,17 @@ footer {
 	font-size: 36px;
 }
 
+.post-comment-count {
+	text-align: center;
+	font-size: 12px;
+	display: block;
+	color: $medium-orange;
+}
+.post-comment-count:hover {
+	color: $light-orange;
+	text-decoration: none;
+}
+
 .post-title {
 	font-family: $font-title;
 	font-size: 40px;
@@ -199,7 +228,7 @@ footer {
 	text-shadow: 2px 2px 8px $black;
 	line-height: 1;
 }
-.post-title:hover {
+.post-title:hover:not(p) {
 	color: $light-blue;
 	text-decoration: none;
 }
@@ -208,4 +237,81 @@ footer {
 	font-family: $font;
 	font-size: 12px;
 	color: $light-grey;
+}
+
+.post-image {
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border: 1px solid rgb(200, 200, 200);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: $dark-grey;
+
+	img {
+		display: block;
+		margin: 0 auto;
+
+		/* Keep aspect ratio without overlapping parent */
+		max-width: 100%;
+		width: auto\9;
+		height: auto;
+		vertical-align: middle;
+		border: 0;
+		-ms-interpolation-mode: bicubic;
+
+		box-shadow: 0 0 4px 3px $black;
+		-webkit-box-shadow: 0 0 8px 2px $black;
+	}
+
+	.video {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+		box-shadow: 0 0 4px 3px $black;
+		-webkit-box-shadow: 0 0 8px 2px $black;
+
+		iframe, object, embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	p {
+		text-align: center;
+		margin: 0;
+		margin-top: 10px;
+		text-shadow: 1px 1px 4px $black;
+		font-family: $font;
+		font-size: 12px;
+		color: $light-grey;
+	}
+}
+
+.p-end {
+	margin-bottom: 15px;
+}
+
+/*===================================================*/
+/* About page styles */
+/*===================================================*/
+.about-logo {
+	font-family: $font-logo;
+	color: $medium-orange;
+	font-size: 80px;
+	text-shadow: 4px 4px 6px $black;
+	text-align: center;
+}
+
+.profile-title {
+	font-family: $font-title;
+	font-size: 30px;
+	color: $medium-orange;
+	text-shadow: 1px 1px 2px $black;
 }

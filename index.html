@@ -9,6 +9,8 @@ id: blog
 				<p class="post-month">{{ post.date | date: "%b" }}</p>
 				<p class="post-day">{{ post.date | date: "%d" }}</p>
 				<p class="post-year">{{ post.date | date: "%Y" }}</p>
+				<br>
+				<a class="post-comment-count" href="{{ post.url }}#disqus_thread">Comments</a>
 			</div>
 			<div class="col-md-11 col-sm-12 col-xs-12">
 				<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
