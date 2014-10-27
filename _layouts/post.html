@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="wrap">
+      {% include header.html %}
+      <div id="content" class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="fluid-container post">
+              <div class="row">
+                <div class="col-lg-1 post-info">
+                  <p class="post-month">{{ page.date | date: "%b" }}</p>
+                  <p class="post-day">{{ page.date | date: "%d" }}</p>
+                  <p class="post-year">{{ page.date | date: "%Y" }}</p>
+                </div>
+                <div class="col-lg-11">
+                  <a class="post-title" href="{{ page.url }}">{{ page.title }}</a>
+                  <p class="post-author">Posted by {{ page.authors | join: ', '}} on {{ page.date | date: "%B %-d, %Y" }}</p>
+                  {{ page.content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="push"></div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

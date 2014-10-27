@@ -6,6 +6,7 @@
 // Fonts
 $font: Arial, Helvetica, sans-serif;
 $font-logo: PebblesLogo;
+$font-title: TitleFont;
 
 // Colors
 $black: rgb(0, 0, 0);
@@ -14,6 +15,7 @@ $dark-grey: rgb(40, 40, 40);
 $dark-grey-hover: rgb(50, 50, 50);
 $medium-grey: rgb(66, 66, 66);
 $medium-grey-hover: rgb(80, 80, 80);
+$light-grey: rgb(188, 188, 188);
 
 $light-orange: rgb(255, 153, 0);
 $medium-orange: rgb(240, 138, 0);
@@ -54,7 +56,11 @@ $on-laptop:        800px;
 
 @font-face {
 	font-family: $font-logo;
-	src: url({{ "/font/Graffogie.ttf" | prepend: site.baseurl }});
+	src: url("/font/Graffogie.ttf");
+}
+@font-face {
+	font-family: $font-title;
+	src: url("/font/BubbleBaz.ttf");
 }
 
 html, body {
@@ -77,7 +83,9 @@ body {
 	height: 40px;
 }
 
+/*===================================================*/
 /* Header styles */
+/*===================================================*/
 header {
 	background-color: $dark-grey;
 	min-height: 20px;
@@ -116,6 +124,7 @@ header .row {
 		font-weight: bold;
 		text-shadow: 2px 2px 8px $black;
 		text-align: right;
+		border-bottom: 1px solid $medium-grey;
 	}
 
 	a.active {
@@ -130,7 +139,9 @@ header .row {
 	}
 }
 
+/*===================================================*/
 /* Footer styles */
+/*===================================================*/
 footer {
 	background-color: $dark-grey;
 	min-height: 20px;
@@ -139,8 +150,10 @@ footer {
 	margin-top: 40px;
 }
 
+/*===================================================*/
 /* Page content styles */
-.article {
+/*===================================================*/
+.post {
 	background-color: $medium-grey;
 	color: $white;
 	height: auto;
@@ -153,6 +166,46 @@ footer {
   	margin-bottom: 10px;
 }
 
-.article:not(:last-of-type) {
+.post:not(:last-of-type) {
 	margin-bottom: 20px;
+}
+
+// Left pane when viewing the blog list.
+.post-info {
+	padding: 30px 0 30px 0;
+	border-right: 2px solid $white;
+}
+
+// The date styling for posts on the blog list.
+.post-month, .post-day, .post-year {
+	text-transform: uppercase;
+	font-family: $font;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0;
+}
+.post-month, .post-year {
+	font-size: 16px;
+	line-height: 8px;
+}
+.post-day {
+	font-size: 36px;
+}
+
+.post-title {
+	font-family: $font-title;
+	font-size: 40px;
+	color: $medium-blue;
+	text-shadow: 2px 2px 8px $black;
+	line-height: 1;
+}
+.post-title:hover {
+	color: $light-blue;
+	text-decoration: none;
+}
+
+.post-author {
+	font-family: $font;
+	font-size: 12px;
+	color: $light-grey;
 }
