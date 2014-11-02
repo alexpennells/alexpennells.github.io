@@ -230,8 +230,13 @@ footer p {
 	box-shadow: 0 0 4px 3px $black;
 	-webkit-box-shadow: 0 0 8px 2px $black;
 	border-bottom: 3px solid $medium-orange;
-  	border-top: 4px solid $medium-blue;
-  	margin-bottom: 10px;
+  border-top: 4px solid $medium-blue;
+  margin-bottom: 10px;
+  text-align: center;
+  
+  p {
+    text-align: left;
+  }
 }
 
 .post:not(:last-of-type) {
@@ -249,7 +254,7 @@ footer p {
 	text-transform: uppercase;
 	font-family: $font;
 	font-weight: bold;
-	text-align: center;
+	text-align: center !important;
 	margin-bottom: 0;
 }
 .post-month, .post-year {
@@ -277,6 +282,8 @@ footer p {
 	color: $medium-blue;
 	text-shadow: 2px 2px 8px $black;
 	line-height: 1;
+	display: block;
+	text-align: left;
 }
 .post-title:hover:not(p) {
 	color: $light-blue;
@@ -290,6 +297,7 @@ footer p {
 }
 
 .post-image {
+  display: inline-block;
 	width: auto;
 	height: auto;
 	padding: 10px;
