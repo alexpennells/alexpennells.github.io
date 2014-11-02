@@ -364,7 +364,7 @@ footer p {
 	color: $medium-orange;
 	font-size: 80px;
 	text-shadow: 4px 4px 6px $black;
-	text-align: center;
+	text-align: center !important;
 }
 
 .profile-title {
