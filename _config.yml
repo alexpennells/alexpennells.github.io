@@ -1,7 +1,7 @@
 # Site settings
-title: Pebbles
+title: Pebbles Games
 email: pebblesgames@gmail.com
-description: "Blog for Pebbles, an indie game development studio based out of Toronto, ON."
+description: "Pebbles Games is a new indie game studio based out of Toronto, ON. We are currently in the midst of creating our first unnamed creation, but you can follow our progress (and rants) by checking out our blog."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pebblesgames.com" # the base hostname & protocol for your site
 twitter_username: PebblesGames
