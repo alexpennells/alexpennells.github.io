@@ -3,23 +3,59 @@
 	{
 		"selected_items":
 		[
+			[
+				"ligh",
+				"light-orange"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mediu",
+				"medium-orange"
+			],
+			[
+				"dark",
+				"dark-grey"
+			],
+			[
+				"light",
+				"light-grey"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"post",
+				"post-title"
+			],
+			[
+				"med",
+				"medium-orange"
+			],
+			[
+				"medium",
+				"medium-blue"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_layouts/default.html",
+			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 241,
+				"buffer_size": 794,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "_layouts/post.html",
 			"settings":
 			{
-				"buffer_size": 69,
+				"buffer_size": 1517,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +63,55 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 835,
+				"buffer_size": 6751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about/index.html",
+			"settings":
+			{
+				"buffer_size": 3635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 1504,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 812,
 				"line_ending": "Unix"
 			}
 		}
@@ -39,11 +123,15 @@
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 392.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -60,16 +148,31 @@
 	},
 	"file_history":
 	[
-		"/home/alex/Documents/alexpennells.github.io/_config.yml",
-		"/home/alex/Documents/alexpennells.github.io/_sass/_layout.scss",
-		"/home/alex/Documents/alexpennells.github.io/css/main.scss",
+		"/home/alex/Documents/alexpennells.github.io/_posts/2014-10-27-test-post.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/footer.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/disquscount.html",
+		"/home/alex/Documents/alexpennells.github.io/_layouts/default.html",
+		"/home/alex/Documents/alexpennells.github.io/about/index.html",
+		"/home/alex/Documents/alexpennells.github.io/_site/website/2014/10/27/test-post.html",
+		"/home/alex/Documents/alexpennells.github.io/_posts/2014-10-26-test-post.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/disqus-count.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/disqus.html",
+		"/home/alex/Documents/uogsocis.github.io/_posts/news/2014-03-06-agm-results.html",
+		"/home/alex/Documents/uogsocis.github.io/events/index.html",
+		"/storage/Game Assets/Pebbles/website/style.css",
+		"/storage/Game Assets/Pebbles/website/transplus/intro.html",
+		"/home/alex/Documents/uogsocis.github.io/index.html",
 		"/home/alex/Documents/alexpennells.github.io/index.html",
+		"/home/alex/Documents/alexpennells.github.io/_config.yml",
+		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-09-04-socs-bbq.html",
+		"/home/alex/Documents/alexpennells.github.io/_includes/head.html",
+		"/home/alex/Documents/alexpennells.github.io/css/main.scss",
+		"/home/alex/Documents/uogsocis.github.io/_includes/header.html",
+		"/home/alex/Documents/alexpennells.github.io/img/background.png",
+		"/home/alex/Documents/alexpennells.github.io/_sass/_layout.scss",
 		"/home/alex/Documents/alexpennells.github.io/_sass/_syntax-highlighting.scss",
 		"/home/alex/Documents/alexpennells.github.io/_layouts/page.html",
-		"/home/alex/Documents/alexpennells.github.io/_includes/footer.html",
 		"/home/alex/Documents/alexpennells.github.io/_includes/header.html",
-		"/home/alex/Documents/alexpennells.github.io/_includes/head.html",
-		"/storage/Game Assets/Pebbles/website/style.css",
 		"/storage/Game Assets/Pebbles/website/index.html",
 		"/home/alex/Documents/alexpennells.github.io/_sass/_base.scss",
 		"/home/alex/Documents/alexpennells.github.io/README.md",
@@ -78,18 +181,13 @@
 		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-11-08-food-waste-hackathon.html",
 		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-10-22-guelph-coding-community.html",
 		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-10-08-guelph-coding-community.html",
-		"/home/alex/Documents/uogsocis.github.io/events/index.html",
 		"/home/alex/Documents/uogsocis.github.io/gcc/index.html",
-		"/home/alex/Documents/uogsocis.github.io/index.html",
 		"/home/alex/Documents/uogsocis.github.io/_site/gcc/index.html",
-		"/home/alex/Documents/uogsocis.github.io/_includes/header.html",
 		"/home/alex/Documents/uogsocis.github.io/css/main.css",
 		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-22-08-guelph-coding-community.html",
 		"/home/alex/Documents/uogsocis.github.io/about/index.html",
-		"/home/alex/Documents/uogsocis.github.io/_posts/news/2014-03-06-agm-results.html",
 		"/home/alex/Documents/uogsocis.github.io/contact/index.html",
 		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-09-06-intro-to-the-raspberry-pi.html",
-		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-09-04-socs-bbq.html",
 		"/home/alex/Documents/uogsocis.github.io/_posts/events/2014-08-31-you-bet-your-ascii.html",
 		"/home/alex/Documents/uogsocis.github.io/_config.yml",
 		"/home/alex/Documents/uogsocis.github.io/CNAME",
@@ -116,6 +214,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4",
+			"right",
+			"jpg",
+			"a",
+			"%}",
+			"#content .image-container ",
+			" Us",
+			"lg",
+			"sm",
+			"post",
+			"post.date",
+			"Graffogie",
+			" | prepend: site.baseurl",
+			"20",
+			"************************************************",
+			"article",
+			"..",
+			"base",
+			" | prepend: site.baseurl",
+			"baseurl",
+			"logo-font",
+			"font-size",
+			"800px",
+			"46px",
+			"0",
+			"orange",
+			"medium-grey",
+			"66",
+			"40",
+			"5",
+			"css",
 			"upcoming",
 			"left",
 			"12px",
@@ -158,23 +287,50 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/default.html",
+					"file": "_includes/header.html",
 					"settings":
 					{
-						"buffer_size": 241,
+						"buffer_size": 794,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								232,
-								232
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 1517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
 							]
 						],
 						"settings":
@@ -190,24 +346,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "index.html",
+					"buffer": 2,
+					"file": "css/main.scss",
 					"settings":
 					{
-						"buffer_size": 69,
+						"buffer_size": 6751,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24,
-								24
+								3655,
+								3655
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2907.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -216,24 +400,134 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "css/main.scss",
+					"buffer": 4,
+					"file": "_config.yml",
 					"settings":
 					{
-						"buffer_size": 835,
+						"buffer_size": 464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								282,
-								282
+								60,
+								60
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "about/index.html",
+					"settings":
+					{
+						"buffer_size": 3635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2403,
+								2403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 1504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_includes/head.html",
+					"settings":
+					{
+						"buffer_size": 812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -250,7 +544,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -286,6 +580,78 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"css/main.scss"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"foot",
+				"_includes/footer.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"defaul",
+				"_layouts/default.html"
+			],
+			[
+				"about",
+				"about/index.html"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"test",
+				"_posts/2014-10-27-test-post.html"
+			],
+			[
+				"2014",
+				"_posts/2014-10-26-test-post.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"index",
+				"about/index.html"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"defau",
+				"_layouts/default.html"
+			],
+			[
+				"layou",
+				"_layouts/default.html"
+			],
+			[
+				"layout",
+				"_layouts/default.html"
+			],
+			[
+				"default",
+				"_layouts/default.html"
+			],
+			[
+				"heade",
+				"_includes/header.html"
+			],
+			[
 				"comm",
 				"_posts/events/2014-10-22-guelph-coding-community.html"
 			],
@@ -314,20 +680,12 @@
 				"_includes/header.html"
 			],
 			[
-				"main",
-				"css/main.css"
-			],
-			[
 				"gcc/ind",
 				"_site/gcc/index.html"
 			],
 			[
 				"guelp",
 				"_posts/events/2014-10-22-guelph-coding-community.html"
-			],
-			[
-				"about",
-				"about/index.html"
 			],
 			[
 				"events/in",
@@ -346,16 +704,8 @@
 				"news/index.html"
 			],
 			[
-				"index",
-				"_site/index.html"
-			],
-			[
 				"css",
 				"css/main.css"
-			],
-			[
-				"footer",
-				"_includes/footer.html"
 			]
 		],
 		"width": 0.0
