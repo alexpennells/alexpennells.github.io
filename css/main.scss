@@ -118,7 +118,6 @@ header {
 	font-size: 60px;
 	text-shadow: 4px 4px 6px $black;
 }
-
 .header-logo:hover {
 	color: $light-orange;
 	cursor: pointer;
@@ -131,26 +130,41 @@ header .row {
 }
 
 .header-btn {
+	height: 100%;
 	font-family: $font;
 	text-transform: uppercase;
-	height: 100%;
 	margin-top: 50px;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px $black;
+	text-align: right;
 
-	a {
+	.header-rss {
+		display: block;
+		margin-top: 6px;
+		font-size: 12px;
+		color: $medium-orange;
+
+		i {
+			margin-right: 4px;
+		}
+	}
+	.header-rss:hover {
+		color: $light-orange;
+		text-decoration: none;
+	}
+	
+	a:not(.header-rss) {
 		display: block;
 		color: $white;
-		font-weight: bold;
-		text-shadow: 2px 2px 8px $black;
-		text-align: right;
 		border-bottom: 1px solid $medium-grey;
 	}
 
-	a.active {
+	a:not(.header-rss).active {
 		border-bottom: 2px solid $medium-orange;
 		box-shadow: 0 8px 6px -6px $black;
 	}
 
-	a:hover {
+	a:not(.header-rss):hover {
 		text-decoration: none;
 		border-bottom: 1px solid $light-orange;
 		box-shadow: 0 8px 6px -6px $black;
@@ -214,6 +228,7 @@ footer p {
 
   i {
   	font-size: 20px;
+  	padding-left: 2px;
   	text-shadow: 2px 2px 6px $black;
   }
 }
