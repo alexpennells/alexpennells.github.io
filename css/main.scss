@@ -245,13 +245,13 @@ footer p {
 	box-shadow: 0 0 4px 3px $black;
 	-webkit-box-shadow: 0 0 8px 2px $black;
 	border-bottom: 3px solid $medium-orange;
-  border-top: 4px solid $medium-blue;
-  margin-bottom: 10px;
-  text-align: center;
-  
-  p {
-    text-align: left;
-  }
+    border-top: 4px solid $medium-blue;
+    margin-bottom: 10px;
+    text-align: center;
+
+    p {
+        text-align: left;
+    }
 }
 
 .post:not(:last-of-type) {
@@ -399,3 +399,42 @@ footer p {
 	text-shadow: 1px 1px 2px $black;
 }
 
+/*===================================================*/
+/* Pagination control styles */
+/*===================================================*/
+
+.pagination {
+    text-align: center;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;   
+}
+
+.page-btn {
+    background-color: $dark-grey;
+    color: $light-grey;
+    height: auto;
+    margin: auto;
+    margin-right: 4px;
+    font-weight: bold;
+    padding: 5px 8px;
+    box-shadow: 0 1px 4px 2px $black;
+    -webkit-box-shadow: 0 1px 4px 2px $black;
+    text-shadow: 1px 1px 2px $black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.page-btn:not(.disabled):hover {
+    box-shadow: 0 1px 6px 2px $black;
+    -webkit-box-shadow: 0 1px 6px 2px $black;
+    text-decoration: none;
+}
+.page-btn.active {
+    color: $medium-orange;
+}
+.page-btn.disabled {
+    color: $medium-grey;
+}
