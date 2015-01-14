@@ -1,33 +1,30 @@
 <header>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4 col-xs-6">
-				<a class="header-logo" href="/">PebbleS</a>
-			</div>
-			<div class="col-sm-2 col-sm-offset-2 hidden-xs header-btn">
-				<a class="header-rss" href="/feed.xml"><i class="fa fa-rss"></i>Subscribe</a>
-			</div>
-			<div class="col-sm-2 col-xs-3 header-btn">
-				{% if page.id == 'blog' %}
-					<a class="active" href="/">Blog</a>
-				{% else %}
-					<a href="/">Blog</a>
-				{% endif %}
-			</div>
-			<div class="col-sm-2 hidden-xs header-btn">
-				{% if page.id == 'about' %}
-					<a class="active" href="/about/">About Us</a>
-				{% else %}
-					<a href="/about/">About Us</a>
-				{% endif %}
-			</div>
-			<div class="col-xs-3 hidden-sm visible-xs header-btn">
-				{% if page.id == 'about' %}
-					<a class="active" href="/about/">About</a>
-				{% else %}
-					<a href="/about/">About</a>
-				{% endif %}
-			</div>
-		</div>
-	</div>
+	<nav class="navbar" role="navigation">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="/">alex pennells</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="main-navbar-collapse">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="/">Home</a></li>
+	        <li><a href="/about/">about</a></li>
+	        <li><a target="_blank" href="{{ site.resume_url }}">resume</a></li>
+	        <li><a href="/contact/">contact</a></li>
+	      </ul>
+	    </div>
+	</nav>
 </header>
+
+<div class="banner">
+	<div class="banner-overlay"></div>
+	<img src="/img/{{ page.banner }}" alt="{{ page.bannerAlt }}" />
+	<div class="banner-text">
+		<p class="banner-small">{{ page.bannerSmall }}</p>
+		<p class="banner-big">{{ page.bannerBig }}</p>
+	</div>
+</div>

@@ -1,4 +1,61 @@
-#header.info h2 {
+/* This file is actually hosted at https://uoguelph.ca/~apennell/wufoo.css */
+
+#header.info h2, .wufoo h2 {
     font-family: "Lucida Console", Monaco, monospace;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    text-transform: lowercase;
+}
+
+.wufoo li span label {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 11px;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+
+.wufoo li.focused {
+    background-color: #A1C22D;
+}
+
+.wufoo .info, .wufoo .paging-context {
+    border-bottom: none;
+}
+
+input.text, input.search, textarea.textarea {
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.wufoo .section h3, .wufoo .captcha {
+    border-top: none;
+}
+
+#saveForm {
+    background-color: #FFF;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    padding: 4px 8px;
+    font-weight: bold;
+    color: #A1C22D;
+    border: 1px solid #A1C22D;
+
+    -moz-transition: color .1s ease-in;
+    -o-transition: color .1s ease-in;
+    -webkit-transition: color .1s ease-in;
+    -moz-transition: background-color .1s ease-in;
+    -o-transition: background-color .1s ease-in;
+    -webkit-transition: background-color .1s ease-in;
+}
+#saveForm:hover {
+    background-color: #A1C22D;
+    color: #FFF;
+    cursor: pointer;
 }

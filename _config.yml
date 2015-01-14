@@ -1,14 +1,14 @@
 # Site settings
-title: Pebbles Games
-email: pebblesgames@gmail.com
-description: "Pebbles Games is a new indie game studio based out of Toronto, ON. We are currently in the midst of creating our first unnamed creation, but you can follow our progress (and rants) by checking out our blog."
+title: Alex Pennells
+email: pennellsa@gmail.com
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pebblesgames.com" # the base hostname & protocol for your site
+url: "http://alexpennells.com" # the base hostname & protocol for your site
 twitter_username: AlexPennells
-facebook_url: "https://www.facebook.com/pages/Pebbles-Games/739720026106837?ref=hl"
+facebook_url: "https://www.facebook.com/alex.pennells"
+linkedin_url: "https://ca.linkedin.com/pub/alex-pennells/44/a88/50a"
 github_username:  alexpennells
-paginate: 2
-paginate_path: ":num/"
+resume_url: "https://drive.google.com/file/d/0B0Q80tzEuWWFWjhPTG1lNUdaQ28/view?usp=sharing"
 
 # Build settings
 markdown: kramdown
